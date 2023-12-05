@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>user-profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container1">
+        <div class="item header1">
+            <div class="headeritem1">
+                <img src="./images/LOGO (TECHXURY).png" alt="">
+                <div class="headeritem techxury">Techxury</div>
+            </div>
+            <div class="headeritem2">
+                <div class="headeritem">Courses</div>
+                <div class="headeritem">Groups</div>
+                <div class="headeritem">Support</div>
+                <div class="headeritem">more</div>
+                <div class="headeritem">login</div>
+            </div>
+
+            
+        </div>
+        <div class="item navbox">
+            <div class="navitems navitem1">PROFILE</div>
+            <div class="navitems">COURSES</div>
+            <div class="navitems">GROUPS</div>
+            <div class="navitems">SETTINGS</div>
+        </div>
+        <div class="item profilebox">
+            <div class="identitycard">
+                <div class="idheading">Identity Card :</div>
+                <div class="idbox">
+                    <img src="./images/profilelogo2.webp" alt="">
+                    <div class="userinfobox">
+                        <div class="username1">USER NAME</div>
+                        <div class="userid">User Id: 22f35r@Techxury</div>
+                        <div class="emailid">Email Id: UserName@mail.com</div>
+                        <div class="status">LEARNER / BADGE (LEVEL)</div>
+                        <div class="skills">Skills: FullStack Dev.</div>
+                        <div class="issuedate">Issue date: XY/XY/20XY</div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="privacycontainerbox">
+                <div class="privacyheading">Profile Privacy :</div>
+                <div class="privacycontainer">
+                    <div>Keep Your Profile</div>
+                    <form action="" method="get" id="onlyform">
+                        <div class="radiocontainer">
+                            <div class="radiobox">
+                                <input type="radio" name="privacy-choice" value="public">
+                                <img src="./images/earth.svg" alt="">
+                                <div class="radioheading">Public </div>
+                                <div class="radiotext">Anyone can see</div>
+                                 
+                            </div>
+
+                            <div class="radiobox">
+                                <input type="radio" name="privacy-choice" value="private">
+                                <img src="./images/lock.svg" alt="">
+                                <div class="radioheading">Private</div>
+                                <div class="radiotext">Nobody Can See</div>
+                            </div>
+
+                        </div>
+
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+
+        
+        <div class="personal-information">
+            <div class="personalheading">Personal Information:</div>
+            <form action="" method="get" id="onlyform" class="personalinfoform">
+                <div class="name">
+                    <label for="username">Name: *</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="gender">
+                    <label for="gender">Gender:</label>
+                    <select name="gender" id="gender">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="othergender">Other</option>
+                    </select>
+                </div>
+                <div class="location">
+                    <label for="location">Location:</label>
+                    <input type="text" id="location" name="location">
+                </div>
+                <div class="phonenumber">
+                    <label for="number">Phone Number:</label>
+                    <input type="number" id="number" name="ph-number">
+                </div>
+                <div class="currentjob">
+                    <label for="currentjob">Current job Title (if applicable):</label>
+                    <input type="text" id="currentjob" name="currentjob">
+                </div>
+                <div class="interests">
+                    <label for="interests">Interests or Hobbies:</label>
+                    <input type="text" id="interests" name="interests">
+                </div>
+                
+            </form>
+        </div>
+    
+        <div class="item educationbox">
+            <div class="eduheading">EDUCATION :</div>
+            <form action="" method="get" id="onlyform" class="eduformbox">
+                <div class="highestedu">
+                    <label for="highest-level-edu">Highest Level of Education:</label>
+                    <select name="highest-level-edu" id="highest-level-edu">
+                        <option value="ug">Under Graduate</option>
+                        <option value="pg">Post Graduate</option>
+                        <option value="12th">12th</option>
+                        <option value="highschool">Highsschool</option>
+                        <option value="other">other</option>
+                    </select>
+                </div>
+                <div class="institutionname">
+                    <label for="uni-name">Institution/University Name:</label>
+                    <input type="text" id="uni-name" name="uni-name">
+                </div>
+                <div class="certification">
+                    <label for="certification">Certification</label>
+                    <input type="file" id="certification" name="certification">
+                </div>
+                <div class="Field-of-study">
+                    <label for="fieldofstudy">Field of Study or Major</label>
+                    <input type="text" id="fieldofstudy" name="fieldofstudy">
+                </div>
+                <div class="yearofgraduation">
+                    <label for="yearofgraduation">Year of Graduation:</label>
+                    <input type="number" id="yearofgraduation" name="yearofgraduation">
+                </div>
+                <div class="otherinformation">
+                    <label for="other-information">Other Information</label>
+                    <input type="text" id="other-information" name="other-information">
+                </div>
+            </form>
+
+
+        </div>
+        <div class="item experiencebox">
+            <div class="experience">Experience:</div>
+            <div class="ex-box">
+                <div class="projectsbox">
+                    <div class="projectheading">Projects:</div>
+                    <div class="projectsubtext">Highlight your capabilities to potential employers by presenting job specific projects Showcase your technical powers and problem solving ablities through the inclusion of relevant projects that demonstrate real world solutions</div>
+
+                </div>
+                <div class="work-ex-box">
+                    <div class="work-ex-heading">Work Experience:</div>
+                    <div class="work-ex-subtext">Provide details of your professional journey by listing your previous employment. if you're at the beginning of your carrer. consider including internship or volunteer roles.</div>
+                </div>
+                <input type="file" id="project-file" name="project-file" accept="image/*" multiple>
+                
+               
+                <input type="file" id="work-ex-file" name="work-ex-file" accept="image/*" multiple>
+
+            </div>
+
+        </div>
+        <button type="submit" form="onlyform">sumbit</button>
+    </div>
+   
+    
+    
+</body>
+</html>
